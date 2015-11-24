@@ -1,0 +1,22 @@
+% Hasan Ta h
+clear all
+a = 4;
+b = 2;
+m = 6;
+n = 6;
+k = zeros(m,n);
+row = zeros(m*n,1);
+col = zeros(m*n,1);
+for m = 1 : 6
+    for n = 1 : 6
+        k(m,n) = sqrt( (m*pi/a)^2 + (n*pi/b)^2 );
+    end
+end
+% Sort the modes in ascending order and make a vector out of it
+sorted = reshape(sort(k(:)),[],1); 
+for i = 1 : 7
+    [r,c] = find(k==sorted(i))
+    if size(r)>1 || size(c)>1
+end
+Mode_order = [row,col];
+  

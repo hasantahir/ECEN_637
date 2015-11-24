@@ -1,0 +1,171 @@
+% This file was automatically created from the m-file 
+% "m2tex.m" written by USL. 
+% The fontencoding in this file is UTF-8. 
+%  
+% You will need to include the following two packages in 
+% your LaTeX-Main-File. 
+%  
+\documentclass[11pt]{article}
+
+ \usepackage{color} 
+ \usepackage{fancyvrb} 
+%  
+% It is advised to use the following option for Inputenc 
+ \usepackage[utf8]{inputenc} 
+%  
+  
+% definition of matlab colors: 
+\definecolor{mblue}{rgb}{0,0,1} 
+\definecolor{mgreen}{rgb}{0.13333,0.5451,0.13333} 
+\definecolor{mred}{rgb}{0.62745,0.12549,0.94118} 
+\definecolor{mgrey}{rgb}{0.5,0.5,0.5} 
+\definecolor{mdarkgrey}{rgb}{0.25,0.25,0.25} 
+  
+\DefineShortVerb[fontfamily=courier,fontseries=m]{\$} 
+\DefineShortVerb[fontfamily=courier,fontseries=b]{\#} 
+  \begin{document}
+\noindent                                                                                                                                            
+ $$\color{mgreen}$% Hasan Tahir Abbas$\color{black}$$\\
+ $$\color{mgreen}$% ECEN 637 Homework 4: Modes of a waveguide$\color{black}$$\\
+ $$\color{mgreen}$% 10/01/2015$\color{black}$$\\
+ $$\color{mgreen}$%$\color{black}$$\\
+ $clear;$\\
+ $close $\color{mred}$all; $\color{black}$$\color{mgreen}$%clears the command window and closes the plot window when the code is rerun$\color{black}$$\\
+ $ colorbar$\\
+ $$\color{mgreen}$%$\color{black}$$\\
+ $$\color{mgreen}$% This is a program computes and plots first seven TM modes of a$\color{black}$$\\
+ $$\color{mgreen}$% rectangular wavguide. The mode propagation constants obtained numerically$\color{black}$$\\
+ $$\color{mgreen}$% are compared with the analytical values.$\color{black}$$\\
+ $$\color{mgreen}#%%#\color{black}$$\\
+ $$\color{mgreen}$% Essential coefficients and constants$\color{black}$$\\
+ $a = 2.; $\color{mgreen}$% 1/2 Length in the x-direction$\color{black}$$\\
+ $b = 3.; $\color{mgreen}$% Total length in the y-direction$\color{black}$$\\
+ $nxd = 40; $\color{mgreen}$% number of data points in the x-direction$\color{black}$$\\
+ $nyd = 35; $\color{mgreen}$% number of data points in the y-direction$\color{black}$$\\
+ $nx=nxd-2; $\color{mgreen}$% computed data points - without boundary points$\color{black}$$\\
+ $ny=nyd-2;$\\
+ $n = nx*ny; $\color{mgreen}$% number of node points$\color{black}$$\\
+ $ah = 2*a/(nxd-1); $\color{mgreen}$% distance between node points in the x-direction$\color{black}$$\\
+ $bk = b/(nyd-1); $\color{mgreen}$% distance between node points in the y-direction$\color{black}$$\\
+ $alpa = 1; $\color{mgreen}$% alpha matrix variable$\color{black}$$\\
+ $alpa2 = alpa^2;$\\
+ $bta2 =(1.+alpa2)/2.; $\color{mgreen}$% beta matrix variable$\color{black}$$\\
+ $A = zeros(n,n); $\color{mgreen}$% zero the matrix$\color{black}$$\\
+ $mod_num = 7; $\color{mgreen}$% number of modes to calculate$\color{black}$$\\
+ $$\color{mgreen}$% tick_array = zeros(mod_num,1);$\color{black}$$\\
+ $$\color{mgreen}$%$\color{black}$$\\
+ $$\color{mgreen}$%$\color{black}$$\\
+ $$\color{mgreen}#%% Analytical Calculation of the modes#\color{black}$$\\
+ $a_x = 4; $\color{mgreen}$% Actual Dimension in x$\color{black}$$\\
+ $b_y = 3; $\color{mgreen}$% Actual Dimension in y$\color{black}$$\\
+ $M = 3; $\color{mgreen}$% Calculate first seven modes$\color{black}$$\\
+ $N = 3; $\color{mgreen}$% Calculate first seven modes$\color{black}$$\\
+ $KK = zeros(M,N); $\color{mgreen}$% Mode matrix$\color{black}$$\\
+ $row = zeros(M*N,1); $\color{mgreen}$% Row order of modes$\color{black}$$\\
+ $col = zeros(M*N,1); $\color{mgreen}$% Column order of modes$\color{black}$$\\
+ $$\color{mblue}$for$\color{black}$ i = 1 : M$\\
+ $    $\color{mblue}$for$\color{black}$ j = 1 : N$\\
+ $        KK(i,j) = sqrt( (i*pi/a_x)^2 + (j*pi/b_y)^2 ); $\color{mgreen}$% Definition of TM modes$\color{black}$$\\
+ $    $\color{mblue}$end$\color{black}$$\\
+ $$\color{mblue}$end$\color{black}$$\\
+ $$\color{mgreen}$% Sort the modes in ascending order and make a vector out of it$\color{black}$$\\
+ $$\color{mgreen}$%$\color{black}$$\\
+ $sorted = reshape(sort(KK(:)),[],1);$\\
+ $$\color{mgreen}$%$\color{black}$$\\
+ $$\color{mgreen}$%$\color{black}$$\\
+ $$\color{mblue}$for$\color{black}$ i = 1 : length(sorted)$\\
+ $    [row(i),col(i)] = find(KK==sorted(i)); $\color{mgreen}$% Find the indices of modes$\color{black}$$\\
+ $$\color{mblue}$end$\color{black}$$\\
+ $Mode_order = [row,col]; $\color{mgreen}$% TM mode order$\color{black}$$\\
+ $$\color{mgreen}#%%#\color{black}$$\\
+ $$\color{mgreen}$%Fill the A matrix$\color{black}$$\\
+ $$\color{mblue}$for$\color{black}$ i = 1:n$\\
+ $    $\color{mblue}$for$\color{black}$ j = 1:n$\\
+ $        $\color{mblue}$if$\color{black}$ i == j$\\
+ $            A(i,j) = 4.*bta2;$\\
+ $        $\color{mblue}$elseif$\color{black}$ j == i-1 || j == i+1$\\
+ $            A(i,j) = -alpa2;$\\
+ $        $\color{mblue}$elseif$\color{black}$ j == i-ny || j == i+ny$\\
+ $            A(i,j) = -1.;$\\
+ $        $\color{mblue}$end$\color{black}$$\\
+ $    $\color{mblue}$end$\color{black}$$\\
+ $$\color{mblue}$end$\color{black}$$\\
+ $$\color{mgreen}$% null out some off diagonal elements that have been set = alpa2 above$\color{black}$$\\
+ $$\color{mblue}$for$\color{black}$ k = ny:ny:n-ny$\\
+ $    A(k,k+1) = 0.;$\\
+ $    A(k+1,k) = 0.;$\\
+ $$\color{mblue}$end$\color{black}$$\\
+ $$\color{mgreen}#%% Solve the eigen-value problem to obtain modes and propagation constants#\color{black}$$\\
+ $[Modes, lambda] = eig(A,$\color{mred}$'vector'$\color{black}$);$\\
+ $kc = sqrt(lambda)./ah;$\\
+ $$\color{mblue}$for$\color{black}$ it= 1 : mod_num$\\
+ $    phi_1 = Modes(:,it); $\color{mgreen}$% Each column is a mode$\color{black}$$\\
+ $    Phi = zeros(nyd,nxd);$\\
+ $    $\\
+ $    $\color{mgreen}$%$\color{black}$$\\
+ $    $\color{mgreen}$%% Reshape and place the mode in to the waveguide$\color{black}$$\\
+ $    $\color{mgreen}$%$\color{black}$$\\
+ $    jt = 0;$\\
+ $    $\color{mblue}$for$\color{black}$ i = 1:nxd$\\
+ $        $\color{mblue}$for$\color{black}$ j = 1:nyd$\\
+ $            $\color{mblue}$if$\color{black}$ i >1 && i<nxd  && j == nyd$\\
+ $                Phi(j,i)=0;$\\
+ $            $\color{mblue}$elseif$\color{black}$ i>1 && i<nxd && j>1 && j<nyd$\\
+ $                jt=jt+1;$\\
+ $                Phi(j,i) = phi_1(jt); $\color{mgreen}$% Place values inside the rectangle$\color{black}$$\\
+ $            $\color{mblue}$end$\color{black}$$\\
+ $        $\color{mblue}$end$\color{black}$$\\
+ $    $\color{mblue}$end$\color{black}$$\\
+ $    $\color{mgreen}$%$\color{black}$$\\
+ $    $\color{mgreen}$%% Plotting routine$\color{black}$$\\
+ $    figure(it)$\\
+ $    axis $\color{mred}$tight$\color{black}$$\\
+ $    yd = 0:bk:b;$\\
+ $    xd = -a:ah:a;$\\
+ $    [xdg, $\color{mred}$ydg] = meshgrid(xd, yd);$\color{black}$$\\
+ $    contour(xdg,ydg,Phi,$\color{mred}$'LineWidth'$\color{black}$,1.5)$\\
+ $    hold $\color{mred}$on$\color{black}$$\\
+ $    [U,V] = gradient(Phi);$\\
+ $    colormap $\color{mred}$hsv$\color{black}$$\\
+ $    $\color{mgreen}$%$\color{black}$$\\
+ $    $\color{mgreen}$% Quiver Plot$\color{black}$$\\
+ $    q = quiver(xdg,ydg,U,V,$\color{mred}$'LineWidth'$\color{black}$,1.1,$\color{mred}$'AutoScaleFactor'$\color{black}$,1);$\\
+ $    c = q.Color;$\\
+ $    q.Color = $\color{mred}$'black'$\color{black}$;$\\
+ $    $\\
+ $    matFileName = sprintf($\color{mred}$'Contour plot of TM_{%d%d} mode'$\color{black}$, row(it) , col(it)); $\color{mgreen}$% Create Title with mode numbers$\color{black}$$\\
+ $    matFileName1 = sprintf($\color{mred}$'Contour_plot_of_TM_%d%d_mode'$\color{black}$, row(it) , col(it)); $\color{mgreen}$% Create Title with mode numbers$\color{black}$$\\
+ $    title(matFileName,...$\\
+ $        $\color{mred}$'HorizontalAlignment'$\color{black}$,$\color{mred}$'center'$\color{black}$,...$\\
+ $        $\color{mred}$'FontWeight'$\color{black}$,$\color{mred}$'bold'$\color{black}$,...$\\
+ $        $\color{mred}$'FontSize'$\color{black}$,10,...$\\
+ $        $\color{mred}$'Interpreter'$\color{black}$,$\color{mred}$'tex'$\color{black}$);$\\
+ $    tick_array{it} = strcat(num2str(row(it)),num2str(col(it))); $\color{mgreen}$% Tick marks for the error plot x-axis$\color{black}$$\\
+ $    xlabel($\color{mred}$'x (meters)'$\color{black}$,$\color{mred}$'FontWeight'$\color{black}$,$\color{mred}$'bold'$\color{black}$) $\color{mgreen}$% x-axis label$\color{black}$$\\
+ $    ylabel($\color{mred}$'y (meters)'$\color{black}$,$\color{mred}$'FontWeight'$\color{black}$,$\color{mred}$'bold'$\color{black}$) $\color{mgreen}$% y-axis label$\color{black}$$\\
+ $     legend($\color{mred}$'H-field'$\color{black}$, $\color{mred}$'E-field'$\color{black}$,$\color{mred}$'Location'$\color{black}$,$\color{mred}$'southoutside'$\color{black}$,$\color{mred}$'Orientation'$\color{black}$,$\color{mred}$'horizontal'$\color{black}$); $\color{mgreen}$% legend$\color{black}$$\\
+ $     colorbar$\\
+ $    saveas(gcf,[matFileName1,$\color{mred}$'.eps'$\color{black}$],$\color{mred}$'epsc'$\color{black}$)$\\
+ $$\color{mblue}$end$\color{black}$$\\
+ $$\color{mgreen}$%$\color{black}$$\\
+ $$\color{mgreen}$% Plot of Error in Analytical and Computed Propagation Constants$\color{black}$$\\
+ $figure()$\\
+ $Error = (abs(kc(1:mod_num) - sorted(1:mod_num)))./abs(sorted(1:mod_num));$\\
+ $bar(Error)$\\
+ $ax = gca;$\\
+ $xlabel($\color{mred}$'Mode Number'$\color{black}$,$\color{mred}$'HorizontalAlignment'$\color{black}$,$\color{mred}$'center'$\color{black}$,$\color{mred}$'FontWeight'$\color{black}$,$\color{mred}$'bold'$\color{black}$) $\color{mgreen}$% x-axis label$\color{black}$$\\
+ $ax.XTickLabel = tick_array;$\\
+ $ylabel($\color{mred}$'Error'$\color{black}$,... $\color{mgreen}$% y-axis label$\color{black}$$\\
+ $    $\color{mred}$'HorizontalAlignment'$\color{black}$,$\color{mred}$'center'$\color{black}$,$\color{mred}$'FontWeight'$\color{black}$,$\color{mred}$'bold'$\color{black}$,...$\\
+ $    $\color{mred}$'Interpreter'$\color{black}$,$\color{mred}$'latex'$\color{black}$)$\\
+ $title($\color{mred}$'Error between Analytical and Computed values of Modes'$\color{black}$,... $\color{mgreen}$% title label$\color{black}$$\\
+ $    $\color{mred}$'HorizontalAlignment'$\color{black}$,$\color{mred}$'center'$\color{black}$,...$\\
+ $    $\color{mred}$'FontWeight'$\color{black}$,$\color{mred}$'bold'$\color{black}$,...$\\
+ $    $\color{mred}$'FontSize'$\color{black}$,10,...$\\
+ $    $\color{mred}$'Interpreter'$\color{black}$,$\color{mred}$'tex'$\color{black}$);$\\
+ $Error_plot = sprintf($\color{mred}$'Error_plot'$\color{black}$); $\color{mgreen}$% Create Title with mode numbers$\color{black}$$\\
+ $saveas(gcf,[Error_plot,$\color{mred}$'.eps'$\color{black}$],$\color{mred}$'epsc'$\color{black}$)$\\ 
+  
+\UndefineShortVerb{\$} 
+\UndefineShortVerb{\#}
+\end{document}

@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" width="340.2pt" height="226.8pt" viewBox="0 0 340 227" stroke-linecap="round" stroke-linejoin="miter">
+<!-- Creator: MuPAD 6.3.0 CreationDate: Wed Sep 23 13:45:52 2015 -->
+<defs>
+ <pattern id="HpH" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" 
+   x="0" y="0" width="110" height="110">
+  <path stroke-width="8" d="M 0 55 H 110"/>
+ </pattern> 
+ <pattern id="HpV" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" 
+   x="0" y="0" width="110" height="110">
+  <path stroke-width="8" d="M 55 0 V 110"/>
+ </pattern> 
+ <pattern id="HpD" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" 
+   x="0" y="0" width="110" height="110">
+  <path stroke-width="8" d="M 0 110 L 110 0"/>
+ </pattern> 
+ <pattern id="HpBD" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" 
+   x="0" y="0" width="110" height="110">
+  <path stroke-width="8" d="M 110 0 L 0 110"/>
+ </pattern> 
+ <pattern id="HpC" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" 
+   x="0" y="0" width="110" height="110">
+  <path stroke-width="8" d="M 0 55 H 110 M 55 0 V 110"/>
+ </pattern> 
+ <pattern id="HpXC" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" 
+   x="0" y="0" width="110" height="110">
+  <path stroke-width="8" d="M 0 110 L 110 0 M 110 110 L 0 0"/>
+ </pattern> 
+</defs>
+<g transform="scale(0.05)">
+<rect stroke="none" fill="#ffffff" x="0" y="0" width="6804" height="4536"/>
+<rect stroke="none" fill="#ffffff" x="0" y="0" width="6804" height="4536"/>
+<clipPath id="CR1">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR1)">
+<rect stroke="none" fill="#ffffff" x="56" y="56" width="6692" height="4424"/>
+<line stroke="#000000" stroke-width="10" x1="120" y1="4282" x2="6415" y2="4282"/>
+<polygon stroke="none" fill="#000000" fill-rule="nonzero" points="6692,4282 6471,4235 6471,4329 "/>
+<line stroke="#000000" stroke-width="10" x1="6692" y1="4282" x2="6471" y2="4235"/>
+<line stroke="#000000" stroke-width="10" x1="6692" y1="4282" x2="6471" y2="4329"/>
+<line stroke="#000000" stroke-width="10" x1="6471" y1="4235" x2="6471" y2="4329"/>
+<line stroke="#000000" stroke-width="10" x1="6415" y1="4282" x2="6692" y2="4282"/>
+<line stroke="#000000" stroke-width="10" x1="3268" y1="4282" x2="3268" y2="389"/>
+<polygon stroke="none" fill="#000000" fill-rule="nonzero" points="3268,112 3315,333 3221,333 "/>
+<line stroke="#000000" stroke-width="10" x1="3268" y1="112" x2="3315" y2="333"/>
+<line stroke="#000000" stroke-width="10" x1="3268" y1="112" x2="3221" y2="333"/>
+<line stroke="#000000" stroke-width="10" x1="3315" y1="333" x2="3221" y2="333"/>
+<line stroke="#000000" stroke-width="10" x1="3268" y1="389" x2="3268" y2="112"/>
+<line stroke="#000000" stroke-width="10" x1="121" y1="4338" x2="121" y2="4226"/>
+<text x="116" y="4352" font-family="Arial" font-size="160" stroke="none" fill="#000000">-5</text>
+<line stroke="#000000" stroke-width="10" x1="750" y1="4338" x2="750" y2="4226"/>
+<text x="745" y="4352" font-family="Arial" font-size="160" stroke="none" fill="#000000">-4</text>
+<line stroke="#000000" stroke-width="10" x1="435" y1="4310" x2="435" y2="4254"/>
+<line stroke="#000000" stroke-width="10" x1="1379" y1="4338" x2="1379" y2="4226"/>
+<text x="1374" y="4352" font-family="Arial" font-size="160" stroke="none" fill="#000000">-3</text>
+<line stroke="#000000" stroke-width="10" x1="1065" y1="4310" x2="1065" y2="4254"/>
+<line stroke="#000000" stroke-width="10" x1="2009" y1="4338" x2="2009" y2="4226"/>
+<text x="2004" y="4352" font-family="Arial" font-size="160" stroke="none" fill="#000000">-2</text>
+<line stroke="#000000" stroke-width="10" x1="1694" y1="4310" x2="1694" y2="4254"/>
+<line stroke="#000000" stroke-width="10" x1="2638" y1="4338" x2="2638" y2="4226"/>
+<text x="2633" y="4352" font-family="Arial" font-size="160" stroke="none" fill="#000000">-1</text>
+<line stroke="#000000" stroke-width="10" x1="2323" y1="4310" x2="2323" y2="4254"/>
+<line stroke="#000000" stroke-width="10" x1="3268" y1="4338" x2="3268" y2="4226"/>
+<text x="3265" y="4352" font-family="Arial" font-size="160" stroke="none" fill="#000000">0</text>
+<line stroke="#000000" stroke-width="10" x1="2953" y1="4310" x2="2953" y2="4254"/>
+<line stroke="#000000" stroke-width="10" x1="3897" y1="4338" x2="3897" y2="4226"/>
+<text x="3894" y="4352" font-family="Arial" font-size="160" stroke="none" fill="#000000">1</text>
+<line stroke="#000000" stroke-width="10" x1="3582" y1="4310" x2="3582" y2="4254"/>
+<line stroke="#000000" stroke-width="10" x1="4526" y1="4338" x2="4526" y2="4226"/>
+<text x="4523" y="4352" font-family="Arial" font-size="160" stroke="none" fill="#000000">2</text>
+<line stroke="#000000" stroke-width="10" x1="4212" y1="4310" x2="4212" y2="4254"/>
+<line stroke="#000000" stroke-width="10" x1="5156" y1="4338" x2="5156" y2="4226"/>
+<text x="5153" y="4352" font-family="Arial" font-size="160" stroke="none" fill="#000000">3</text>
+<line stroke="#000000" stroke-width="10" x1="4841" y1="4310" x2="4841" y2="4254"/>
+<line stroke="#000000" stroke-width="10" x1="5785" y1="4338" x2="5785" y2="4226"/>
+<text x="5782" y="4352" font-family="Arial" font-size="160" stroke="none" fill="#000000">4</text>
+<line stroke="#000000" stroke-width="10" x1="5470" y1="4310" x2="5470" y2="4254"/>
+<line stroke="#000000" stroke-width="10" x1="6414" y1="4338" x2="6414" y2="4226"/>
+<text x="6411" y="4352" font-family="Arial" font-size="160" stroke="none" fill="#000000">5</text>
+<line stroke="#000000" stroke-width="10" x1="6100" y1="4310" x2="6100" y2="4254"/>
+<line stroke="#000000" stroke-width="10" x1="3324" y1="4282" x2="3212" y2="4282"/>
+<line stroke="#000000" stroke-width="10" x1="3324" y1="3816" x2="3212" y2="3816"/>
+<text x="3141" y="3821" font-family="Arial" font-size="160" stroke="none" fill="#000000">1.1</text>
+<line stroke="#000000" stroke-width="10" x1="3296" y1="4049" x2="3240" y2="4049"/>
+<line stroke="#000000" stroke-width="10" x1="3324" y1="3350" x2="3212" y2="3350"/>
+<text x="3141" y="3355" font-family="Arial" font-size="160" stroke="none" fill="#000000">1.2</text>
+<line stroke="#000000" stroke-width="10" x1="3296" y1="3583" x2="3240" y2="3583"/>
+<line stroke="#000000" stroke-width="10" x1="3324" y1="2884" x2="3212" y2="2884"/>
+<text x="3141" y="2889" font-family="Arial" font-size="160" stroke="none" fill="#000000">1.3</text>
+<line stroke="#000000" stroke-width="10" x1="3296" y1="3117" x2="3240" y2="3117"/>
+<line stroke="#000000" stroke-width="10" x1="3324" y1="2418" x2="3212" y2="2418"/>
+<text x="3141" y="2423" font-family="Arial" font-size="160" stroke="none" fill="#000000">1.4</text>
+<line stroke="#000000" stroke-width="10" x1="3296" y1="2651" x2="3240" y2="2651"/>
+<line stroke="#000000" stroke-width="10" x1="3324" y1="1952" x2="3212" y2="1952"/>
+<text x="3141" y="1957" font-family="Arial" font-size="160" stroke="none" fill="#000000">1.5</text>
+<line stroke="#000000" stroke-width="10" x1="3296" y1="2185" x2="3240" y2="2185"/>
+<line stroke="#000000" stroke-width="10" x1="3324" y1="1486" x2="3212" y2="1486"/>
+<text x="3141" y="1491" font-family="Arial" font-size="160" stroke="none" fill="#000000">1.6</text>
+<line stroke="#000000" stroke-width="10" x1="3296" y1="1719" x2="3240" y2="1719"/>
+<line stroke="#000000" stroke-width="10" x1="3324" y1="1020" x2="3212" y2="1020"/>
+<text x="3141" y="1025" font-family="Arial" font-size="160" stroke="none" fill="#000000">1.7</text>
+<line stroke="#000000" stroke-width="10" x1="3296" y1="1253" x2="3240" y2="1253"/>
+<line stroke="#000000" stroke-width="10" x1="3324" y1="554" x2="3212" y2="554"/>
+<text x="3141" y="559" font-family="Arial" font-size="160" stroke="none" fill="#000000">1.8</text>
+<line stroke="#000000" stroke-width="10" x1="3296" y1="787" x2="3240" y2="787"/>
+<text x="6622" y="4421" font-family="Arial" font-size="200" stroke="none" fill="#000000">nx</text>
+<text x="3078" y="181" font-family="Arial" font-size="200" stroke="none" fill="#000000">y</text>
+</g>
+<clipPath id="CR2">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR2)">
+<line stroke="#0000ff" stroke-width="19" x1="121" y1="3072" x2="173" y2="3088"/>
+<line stroke="#0000ff" stroke-width="19" x1="173" y1="3088" x2="225" y2="3104"/>
+<line stroke="#0000ff" stroke-width="19" x1="225" y1="3104" x2="278" y2="3121"/>
+<line stroke="#0000ff" stroke-width="19" x1="278" y1="3121" x2="330" y2="3139"/>
+<line stroke="#0000ff" stroke-width="19" x1="330" y1="3139" x2="383" y2="3157"/>
+<line stroke="#0000ff" stroke-width="19" x1="383" y1="3157" x2="435" y2="3175"/>
+<line stroke="#0000ff" stroke-width="19" x1="435" y1="3175" x2="488" y2="3194"/>
+<line stroke="#0000ff" stroke-width="19" x1="488" y1="3194" x2="540" y2="3214"/>
+<line stroke="#0000ff" stroke-width="19" x1="540" y1="3214" x2="593" y2="3235"/>
+<line stroke="#0000ff" stroke-width="19" x1="593" y1="3235" x2="645" y2="3256"/>
+<line stroke="#0000ff" stroke-width="19" x1="645" y1="3256" x2="697" y2="3278"/>
+<line stroke="#0000ff" stroke-width="19" x1="697" y1="3278" x2="750" y2="3301"/>
+<line stroke="#0000ff" stroke-width="19" x1="750" y1="3301" x2="802" y2="3324"/>
+<line stroke="#0000ff" stroke-width="19" x1="802" y1="3324" x2="855" y2="3348"/>
+<line stroke="#0000ff" stroke-width="19" x1="855" y1="3348" x2="907" y2="3373"/>
+<line stroke="#0000ff" stroke-width="19" x1="907" y1="3373" x2="960" y2="3398"/>
+<line stroke="#0000ff" stroke-width="19" x1="960" y1="3398" x2="1012" y2="3425"/>
+<line stroke="#0000ff" stroke-width="19" x1="1012" y1="3425" x2="1064" y2="3452"/>
+<line stroke="#0000ff" stroke-width="19" x1="1064" y1="3452" x2="1117" y2="3480"/>
+<line stroke="#0000ff" stroke-width="19" x1="1117" y1="3480" x2="1169" y2="3509"/>
+<line stroke="#0000ff" stroke-width="19" x1="1169" y1="3509" x2="1222" y2="3539"/>
+<line stroke="#0000ff" stroke-width="19" x1="1222" y1="3539" x2="1274" y2="3570"/>
+<line stroke="#0000ff" stroke-width="19" x1="1274" y1="3570" x2="1327" y2="3602"/>
+<line stroke="#0000ff" stroke-width="19" x1="1327" y1="3602" x2="1379" y2="3634"/>
+<line stroke="#0000ff" stroke-width="19" x1="1379" y1="3634" x2="1431" y2="3667"/>
+<line stroke="#0000ff" stroke-width="19" x1="1431" y1="3667" x2="1484" y2="3702"/>
+<line stroke="#0000ff" stroke-width="19" x1="1484" y1="3702" x2="1536" y2="3737"/>
+<line stroke="#0000ff" stroke-width="19" x1="1536" y1="3737" x2="1589" y2="3772"/>
+<line stroke="#0000ff" stroke-width="19" x1="1589" y1="3772" x2="1641" y2="3809"/>
+<line stroke="#0000ff" stroke-width="19" x1="1641" y1="3809" x2="1694" y2="3846"/>
+<line stroke="#0000ff" stroke-width="19" x1="1694" y1="3846" x2="1746" y2="3884"/>
+<line stroke="#0000ff" stroke-width="19" x1="1746" y1="3884" x2="1799" y2="3922"/>
+<line stroke="#0000ff" stroke-width="19" x1="1799" y1="3922" x2="1851" y2="3960"/>
+<line stroke="#0000ff" stroke-width="19" x1="1851" y1="3960" x2="1903" y2="3998"/>
+<line stroke="#0000ff" stroke-width="19" x1="1903" y1="3998" x2="1956" y2="4036"/>
+<line stroke="#0000ff" stroke-width="19" x1="1956" y1="4036" x2="2008" y2="4073"/>
+<line stroke="#0000ff" stroke-width="19" x1="2008" y1="4073" x2="2061" y2="4109"/>
+<line stroke="#0000ff" stroke-width="19" x1="2061" y1="4109" x2="2113" y2="4144"/>
+<line stroke="#0000ff" stroke-width="19" x1="2113" y1="4144" x2="2166" y2="4177"/>
+<line stroke="#0000ff" stroke-width="19" x1="2166" y1="4177" x2="2218" y2="4206"/>
+<line stroke="#0000ff" stroke-width="19" x1="2218" y1="4206" x2="2270" y2="4232"/>
+<line stroke="#0000ff" stroke-width="19" x1="2270" y1="4232" x2="2323" y2="4253"/>
+<line stroke="#0000ff" stroke-width="19" x1="2323" y1="4253" x2="2349" y2="4262"/>
+<line stroke="#0000ff" stroke-width="19" x1="2349" y1="4262" x2="2375" y2="4269"/>
+<line stroke="#0000ff" stroke-width="19" x1="2375" y1="4269" x2="2402" y2="4275"/>
+<line stroke="#0000ff" stroke-width="19" x1="2402" y1="4275" x2="2415" y2="4277"/>
+<line stroke="#0000ff" stroke-width="19" x1="2415" y1="4277" x2="2428" y2="4279"/>
+<line stroke="#0000ff" stroke-width="19" x1="2428" y1="4279" x2="2441" y2="4280"/>
+<line stroke="#0000ff" stroke-width="19" x1="2441" y1="4280" x2="2454" y2="4281"/>
+<line stroke="#0000ff" stroke-width="19" x1="2454" y1="4281" x2="2467" y2="4281"/>
+<line stroke="#0000ff" stroke-width="19" x1="2467" y1="4281" x2="2480" y2="4282"/>
+</g>
+<clipPath id="CR3">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR3)">
+</g>
+<clipPath id="CR4">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR4)">
+<line stroke="#0000ff" stroke-width="19" x1="2481" y1="4282" x2="2534" y2="4279"/>
+<line stroke="#0000ff" stroke-width="19" x1="2534" y1="4279" x2="2586" y2="4274"/>
+<line stroke="#0000ff" stroke-width="19" x1="2586" y1="4274" x2="2612" y2="4272"/>
+<line stroke="#0000ff" stroke-width="19" x1="2612" y1="4272" x2="2625" y2="4271"/>
+<line stroke="#0000ff" stroke-width="19" x1="2625" y1="4271" x2="2638" y2="4271"/>
+<line stroke="#0000ff" stroke-width="19" x1="2638" y1="4271" x2="2651" y2="4271"/>
+<line stroke="#0000ff" stroke-width="19" x1="2651" y1="4271" x2="2664" y2="4272"/>
+<line stroke="#0000ff" stroke-width="19" x1="2664" y1="4272" x2="2677" y2="4273"/>
+<line stroke="#0000ff" stroke-width="19" x1="2677" y1="4273" x2="2690" y2="4275"/>
+<line stroke="#0000ff" stroke-width="19" x1="2690" y1="4275" x2="2742" y2="4282"/>
+</g>
+<clipPath id="CR5">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR5)">
+</g>
+<clipPath id="CR6">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR6)">
+<line stroke="#0000ff" stroke-width="19" x1="2744" y1="4282" x2="2756" y2="4281"/>
+<line stroke="#0000ff" stroke-width="19" x1="2756" y1="4281" x2="2769" y2="4277"/>
+<line stroke="#0000ff" stroke-width="19" x1="2769" y1="4277" x2="2781" y2="4269"/>
+<line stroke="#0000ff" stroke-width="19" x1="2781" y1="4269" x2="2793" y2="4256"/>
+<line stroke="#0000ff" stroke-width="19" x1="2793" y1="4256" x2="2806" y2="4236"/>
+<line stroke="#0000ff" stroke-width="19" x1="2806" y1="4236" x2="2818" y2="4206"/>
+<line stroke="#0000ff" stroke-width="19" x1="2818" y1="4206" x2="2843" y2="4102"/>
+<line stroke="#0000ff" stroke-width="19" x1="2843" y1="4102" x2="2893" y2="3586"/>
+<line stroke="#0000ff" stroke-width="19" x1="2893" y1="3586" x2="2918" y2="3074"/>
+<line stroke="#0000ff" stroke-width="19" x1="2918" y1="3074" x2="2930" y2="2766"/>
+<line stroke="#0000ff" stroke-width="19" x1="2930" y1="2766" x2="2943" y2="2498"/>
+<line stroke="#0000ff" stroke-width="19" x1="2943" y1="2498" x2="2955" y2="2413"/>
+<line stroke="#0000ff" stroke-width="19" x1="2955" y1="2413" x2="2967" y2="2614"/>
+<line stroke="#0000ff" stroke-width="19" x1="2967" y1="2614" x2="2992" y2="3459"/>
+<line stroke="#0000ff" stroke-width="19" x1="2992" y1="3459" x2="3042" y2="4282"/>
+</g>
+<clipPath id="CR7">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR7)">
+</g>
+<clipPath id="CR8">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR8)">
+<line stroke="#0000ff" stroke-width="19" x1="3043" y1="4282" x2="3070" y2="4282"/>
+</g>
+<clipPath id="CR9">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR9)">
+</g>
+<clipPath id="CR10">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR10)">
+<line stroke="#0000ff" stroke-width="19" x1="3071" y1="4282" x2="3088" y2="4079"/>
+<line stroke="#0000ff" stroke-width="19" x1="3088" y1="4079" x2="3096" y2="3656"/>
+<line stroke="#0000ff" stroke-width="19" x1="3096" y1="3656" x2="3104" y2="2884"/>
+<line stroke="#0000ff" stroke-width="19" x1="3104" y1="2884" x2="3112" y2="2442"/>
+<line stroke="#0000ff" stroke-width="19" x1="3112" y1="2442" x2="3120" y2="3334"/>
+<line stroke="#0000ff" stroke-width="19" x1="3120" y1="3334" x2="3136" y2="4281"/>
+</g>
+<clipPath id="CR11">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR11)">
+</g>
+<clipPath id="CR12">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR12)">
+<line stroke="#0000ff" stroke-width="19" x1="3137" y1="4281" x2="3146" y2="4281"/>
+</g>
+<clipPath id="CR13">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR13)">
+</g>
+<clipPath id="CR14">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR14)">
+<line stroke="#0000ff" stroke-width="19" x1="3147" y1="4281" x2="3174" y2="4279"/>
+</g>
+<clipPath id="CR15">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR15)">
+</g>
+<clipPath id="CR16">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR16)">
+<line stroke="#0000ff" stroke-width="19" x1="3176" y1="4280" x2="3179" y2="4280"/>
+</g>
+<clipPath id="CR17">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR17)">
+</g>
+<clipPath id="CR18">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR18)">
+<line stroke="#0000ff" stroke-width="19" x1="3181" y1="4278" x2="3195" y2="4274"/>
+</g>
+<clipPath id="CR19">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR19)">
+</g>
+<clipPath id="CR20">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR20)">
+<line stroke="#0000ff" stroke-width="19" x1="3197" y1="4278" x2="3198" y2="4277"/>
+</g>
+<clipPath id="CR21">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR21)">
+</g>
+<clipPath id="CR22">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR22)">
+<line stroke="#0000ff" stroke-width="19" x1="3200" y1="4272" x2="3209" y2="4262"/>
+</g>
+<clipPath id="CR23">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR23)">
+</g>
+<clipPath id="CR24">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR24)">
+<line stroke="#0000ff" stroke-width="19" x1="3210" y1="4274" x2="3211" y2="4274"/>
+</g>
+<clipPath id="CR25">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR25)">
+</g>
+<clipPath id="CR26">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR26)">
+<line stroke="#0000ff" stroke-width="19" x1="3212" y1="4257" x2="3218" y2="4237"/>
+</g>
+<clipPath id="CR27">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR27)">
+</g>
+<clipPath id="CR28">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR28)">
+<line stroke="#0000ff" stroke-width="19" x1="3220" y1="4226" x2="3224" y2="4191"/>
+</g>
+<clipPath id="CR29">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR29)">
+</g>
+<clipPath id="CR30">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR30)">
+<line stroke="#0000ff" stroke-width="19" x1="3227" y1="4169" x2="3229" y2="4110"/>
+</g>
+<clipPath id="CR31">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR31)">
+</g>
+<clipPath id="CR32">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR32)">
+<line stroke="#0000ff" stroke-width="19" x1="3232" y1="4072" x2="3233" y2="3981"/>
+</g>
+<clipPath id="CR33">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR33)">
+</g>
+<clipPath id="CR34">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR34)">
+<line stroke="#0000ff" stroke-width="19" x1="3235" y1="3910" x2="3237" y2="3779"/>
+</g>
+<clipPath id="CR35">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR35)">
+</g>
+<clipPath id="CR36">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR36)">
+<line stroke="#0000ff" stroke-width="19" x1="3238" y1="3662" x2="3239" y2="3478"/>
+</g>
+<clipPath id="CR37">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR37)">
+</g>
+<clipPath id="CR38">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR38)">
+<line stroke="#0000ff" stroke-width="19" x1="3296" y1="3475" x2="3297" y2="3665"/>
+</g>
+<clipPath id="CR39">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR39)">
+</g>
+<clipPath id="CR40">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR40)">
+<line stroke="#0000ff" stroke-width="19" x1="3298" y1="3777" x2="3300" y2="3911"/>
+</g>
+<clipPath id="CR41">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR41)">
+</g>
+<clipPath id="CR42">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR42)">
+<line stroke="#0000ff" stroke-width="19" x1="3302" y1="3980" x2="3303" y2="4073"/>
+</g>
+<clipPath id="CR43">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR43)">
+</g>
+<clipPath id="CR44">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR44)">
+<line stroke="#0000ff" stroke-width="19" x1="3306" y1="4110" x2="3308" y2="4169"/>
+</g>
+<clipPath id="CR45">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR45)">
+</g>
+<clipPath id="CR46">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR46)">
+<line stroke="#0000ff" stroke-width="19" x1="3311" y1="4191" x2="3315" y2="4226"/>
+</g>
+<clipPath id="CR47">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR47)">
+</g>
+<clipPath id="CR48">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR48)">
+<line stroke="#0000ff" stroke-width="19" x1="3317" y1="4237" x2="3323" y2="4257"/>
+</g>
+<clipPath id="CR49">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR49)">
+</g>
+<clipPath id="CR50">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR50)">
+<line stroke="#0000ff" stroke-width="19" x1="3324" y1="4274" x2="3325" y2="4274"/>
+</g>
+<clipPath id="CR51">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR51)">
+</g>
+<clipPath id="CR52">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR52)">
+<line stroke="#0000ff" stroke-width="19" x1="3326" y1="4262" x2="3335" y2="4272"/>
+</g>
+<clipPath id="CR53">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR53)">
+</g>
+<clipPath id="CR54">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR54)">
+<line stroke="#0000ff" stroke-width="19" x1="3337" y1="4277" x2="3338" y2="4278"/>
+</g>
+<clipPath id="CR55">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR55)">
+</g>
+<clipPath id="CR56">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR56)">
+<line stroke="#0000ff" stroke-width="19" x1="3340" y1="4274" x2="3354" y2="4278"/>
+</g>
+<clipPath id="CR57">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR57)">
+</g>
+<clipPath id="CR58">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR58)">
+<line stroke="#0000ff" stroke-width="19" x1="3356" y1="4280" x2="3359" y2="4280"/>
+</g>
+<clipPath id="CR59">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR59)">
+</g>
+<clipPath id="CR60">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR60)">
+<line stroke="#0000ff" stroke-width="19" x1="3361" y1="4279" x2="3388" y2="4281"/>
+</g>
+<clipPath id="CR61">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR61)">
+</g>
+<clipPath id="CR62">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR62)">
+<line stroke="#0000ff" stroke-width="19" x1="3389" y1="4281" x2="3398" y2="4281"/>
+</g>
+<clipPath id="CR63">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR63)">
+</g>
+<clipPath id="CR64">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR64)">
+<line stroke="#0000ff" stroke-width="19" x1="3399" y1="4281" x2="3415" y2="3334"/>
+<line stroke="#0000ff" stroke-width="19" x1="3415" y1="3334" x2="3423" y2="2442"/>
+<line stroke="#0000ff" stroke-width="19" x1="3423" y1="2442" x2="3431" y2="2883"/>
+<line stroke="#0000ff" stroke-width="19" x1="3431" y1="2883" x2="3439" y2="3656"/>
+<line stroke="#0000ff" stroke-width="19" x1="3439" y1="3656" x2="3447" y2="4079"/>
+<line stroke="#0000ff" stroke-width="19" x1="3447" y1="4079" x2="3464" y2="4282"/>
+</g>
+<clipPath id="CR65">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR65)">
+</g>
+<clipPath id="CR66">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR66)">
+<line stroke="#0000ff" stroke-width="19" x1="3465" y1="4282" x2="3492" y2="4282"/>
+</g>
+<clipPath id="CR67">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR67)">
+</g>
+<clipPath id="CR68">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR68)">
+<line stroke="#0000ff" stroke-width="19" x1="3493" y1="4282" x2="3543" y2="3459"/>
+<line stroke="#0000ff" stroke-width="19" x1="3543" y1="3459" x2="3568" y2="2614"/>
+<line stroke="#0000ff" stroke-width="19" x1="3568" y1="2614" x2="3580" y2="2413"/>
+<line stroke="#0000ff" stroke-width="19" x1="3580" y1="2413" x2="3592" y2="2498"/>
+<line stroke="#0000ff" stroke-width="19" x1="3592" y1="2498" x2="3605" y2="2766"/>
+<line stroke="#0000ff" stroke-width="19" x1="3605" y1="2766" x2="3617" y2="3074"/>
+<line stroke="#0000ff" stroke-width="19" x1="3617" y1="3074" x2="3642" y2="3586"/>
+<line stroke="#0000ff" stroke-width="19" x1="3642" y1="3586" x2="3692" y2="4102"/>
+<line stroke="#0000ff" stroke-width="19" x1="3692" y1="4102" x2="3717" y2="4206"/>
+<line stroke="#0000ff" stroke-width="19" x1="3717" y1="4206" x2="3729" y2="4236"/>
+<line stroke="#0000ff" stroke-width="19" x1="3729" y1="4236" x2="3742" y2="4256"/>
+<line stroke="#0000ff" stroke-width="19" x1="3742" y1="4256" x2="3754" y2="4269"/>
+<line stroke="#0000ff" stroke-width="19" x1="3754" y1="4269" x2="3766" y2="4277"/>
+<line stroke="#0000ff" stroke-width="19" x1="3766" y1="4277" x2="3779" y2="4281"/>
+<line stroke="#0000ff" stroke-width="19" x1="3779" y1="4281" x2="3791" y2="4282"/>
+</g>
+<clipPath id="CR69">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR69)">
+</g>
+<clipPath id="CR70">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR70)">
+<line stroke="#0000ff" stroke-width="19" x1="3793" y1="4282" x2="3845" y2="4275"/>
+<line stroke="#0000ff" stroke-width="19" x1="3845" y1="4275" x2="3858" y2="4273"/>
+<line stroke="#0000ff" stroke-width="19" x1="3858" y1="4273" x2="3871" y2="4272"/>
+<line stroke="#0000ff" stroke-width="19" x1="3871" y1="4272" x2="3884" y2="4271"/>
+<line stroke="#0000ff" stroke-width="19" x1="3884" y1="4271" x2="3897" y2="4271"/>
+<line stroke="#0000ff" stroke-width="19" x1="3897" y1="4271" x2="3910" y2="4271"/>
+<line stroke="#0000ff" stroke-width="19" x1="3910" y1="4271" x2="3923" y2="4272"/>
+<line stroke="#0000ff" stroke-width="19" x1="3923" y1="4272" x2="3949" y2="4274"/>
+<line stroke="#0000ff" stroke-width="19" x1="3949" y1="4274" x2="4001" y2="4279"/>
+<line stroke="#0000ff" stroke-width="19" x1="4001" y1="4279" x2="4054" y2="4282"/>
+</g>
+<clipPath id="CR71">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR71)">
+</g>
+<clipPath id="CR72">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR72)">
+<line stroke="#0000ff" stroke-width="19" x1="4055" y1="4282" x2="4068" y2="4281"/>
+<line stroke="#0000ff" stroke-width="19" x1="4068" y1="4281" x2="4081" y2="4281"/>
+<line stroke="#0000ff" stroke-width="19" x1="4081" y1="4281" x2="4094" y2="4280"/>
+<line stroke="#0000ff" stroke-width="19" x1="4094" y1="4280" x2="4107" y2="4279"/>
+<line stroke="#0000ff" stroke-width="19" x1="4107" y1="4279" x2="4120" y2="4277"/>
+<line stroke="#0000ff" stroke-width="19" x1="4120" y1="4277" x2="4133" y2="4275"/>
+<line stroke="#0000ff" stroke-width="19" x1="4133" y1="4275" x2="4160" y2="4269"/>
+<line stroke="#0000ff" stroke-width="19" x1="4160" y1="4269" x2="4186" y2="4262"/>
+<line stroke="#0000ff" stroke-width="19" x1="4186" y1="4262" x2="4212" y2="4253"/>
+<line stroke="#0000ff" stroke-width="19" x1="4212" y1="4253" x2="4265" y2="4232"/>
+<line stroke="#0000ff" stroke-width="19" x1="4265" y1="4232" x2="4317" y2="4206"/>
+<line stroke="#0000ff" stroke-width="19" x1="4317" y1="4206" x2="4369" y2="4177"/>
+<line stroke="#0000ff" stroke-width="19" x1="4369" y1="4177" x2="4422" y2="4144"/>
+<line stroke="#0000ff" stroke-width="19" x1="4422" y1="4144" x2="4474" y2="4109"/>
+<line stroke="#0000ff" stroke-width="19" x1="4474" y1="4109" x2="4527" y2="4073"/>
+<line stroke="#0000ff" stroke-width="19" x1="4527" y1="4073" x2="4579" y2="4036"/>
+<line stroke="#0000ff" stroke-width="19" x1="4579" y1="4036" x2="4632" y2="3998"/>
+<line stroke="#0000ff" stroke-width="19" x1="4632" y1="3998" x2="4684" y2="3960"/>
+<line stroke="#0000ff" stroke-width="19" x1="4684" y1="3960" x2="4736" y2="3922"/>
+<line stroke="#0000ff" stroke-width="19" x1="4736" y1="3922" x2="4789" y2="3884"/>
+<line stroke="#0000ff" stroke-width="19" x1="4789" y1="3884" x2="4841" y2="3846"/>
+<line stroke="#0000ff" stroke-width="19" x1="4841" y1="3846" x2="4894" y2="3809"/>
+<line stroke="#0000ff" stroke-width="19" x1="4894" y1="3809" x2="4946" y2="3772"/>
+<line stroke="#0000ff" stroke-width="19" x1="4946" y1="3772" x2="4999" y2="3737"/>
+<line stroke="#0000ff" stroke-width="19" x1="4999" y1="3737" x2="5051" y2="3702"/>
+<line stroke="#0000ff" stroke-width="19" x1="5051" y1="3702" x2="5104" y2="3667"/>
+<line stroke="#0000ff" stroke-width="19" x1="5104" y1="3667" x2="5156" y2="3634"/>
+<line stroke="#0000ff" stroke-width="19" x1="5156" y1="3634" x2="5208" y2="3602"/>
+<line stroke="#0000ff" stroke-width="19" x1="5208" y1="3602" x2="5261" y2="3570"/>
+<line stroke="#0000ff" stroke-width="19" x1="5261" y1="3570" x2="5313" y2="3539"/>
+<line stroke="#0000ff" stroke-width="19" x1="5313" y1="3539" x2="5366" y2="3509"/>
+<line stroke="#0000ff" stroke-width="19" x1="5366" y1="3509" x2="5418" y2="3480"/>
+<line stroke="#0000ff" stroke-width="19" x1="5418" y1="3480" x2="5471" y2="3452"/>
+<line stroke="#0000ff" stroke-width="19" x1="5471" y1="3452" x2="5523" y2="3425"/>
+<line stroke="#0000ff" stroke-width="19" x1="5523" y1="3425" x2="5575" y2="3398"/>
+<line stroke="#0000ff" stroke-width="19" x1="5575" y1="3398" x2="5628" y2="3373"/>
+<line stroke="#0000ff" stroke-width="19" x1="5628" y1="3373" x2="5680" y2="3348"/>
+<line stroke="#0000ff" stroke-width="19" x1="5680" y1="3348" x2="5733" y2="3324"/>
+<line stroke="#0000ff" stroke-width="19" x1="5733" y1="3324" x2="5785" y2="3301"/>
+<line stroke="#0000ff" stroke-width="19" x1="5785" y1="3301" x2="5838" y2="3278"/>
+<line stroke="#0000ff" stroke-width="19" x1="5838" y1="3278" x2="5890" y2="3256"/>
+<line stroke="#0000ff" stroke-width="19" x1="5890" y1="3256" x2="5942" y2="3235"/>
+<line stroke="#0000ff" stroke-width="19" x1="5942" y1="3235" x2="5995" y2="3214"/>
+<line stroke="#0000ff" stroke-width="19" x1="5995" y1="3214" x2="6047" y2="3194"/>
+<line stroke="#0000ff" stroke-width="19" x1="6047" y1="3194" x2="6100" y2="3175"/>
+<line stroke="#0000ff" stroke-width="19" x1="6100" y1="3175" x2="6152" y2="3157"/>
+<line stroke="#0000ff" stroke-width="19" x1="6152" y1="3157" x2="6205" y2="3139"/>
+<line stroke="#0000ff" stroke-width="19" x1="6205" y1="3139" x2="6257" y2="3121"/>
+<line stroke="#0000ff" stroke-width="19" x1="6257" y1="3121" x2="6310" y2="3104"/>
+<line stroke="#0000ff" stroke-width="19" x1="6310" y1="3104" x2="6362" y2="3088"/>
+<line stroke="#0000ff" stroke-width="19" x1="6362" y1="3088" x2="6414" y2="3072"/>
+</g>
+<clipPath id="CR73">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR73)">
+<line stroke="#808080" stroke-width="11" stroke-dasharray="120,120" stroke-dashoffset="-0" x1="3300" y1="389" x2="3300" y2="4282"/>
+<line stroke="#808080" stroke-width="11" stroke-dasharray="120,120" stroke-dashoffset="-0" x1="3297" y1="389" x2="3297" y2="4282"/>
+<line stroke="#808080" stroke-width="11" stroke-dasharray="120,120" stroke-dashoffset="-0" x1="3235" y1="389" x2="3235" y2="4282"/>
+<line stroke="#808080" stroke-width="11" stroke-dasharray="120,120" stroke-dashoffset="-0" x1="3226" y1="389" x2="3226" y2="4282"/>
+<line stroke="#808080" stroke-width="11" stroke-dasharray="120,120" stroke-dashoffset="-0" x1="3301" y1="389" x2="3301" y2="4282"/>
+<line stroke="#808080" stroke-width="11" stroke-dasharray="120,120" stroke-dashoffset="-0" x1="3305" y1="389" x2="3305" y2="4282"/>
+<line stroke="#808080" stroke-width="11" stroke-dasharray="120,120" stroke-dashoffset="-0" x1="3238" y1="389" x2="3238" y2="4282"/>
+<line stroke="#808080" stroke-width="11" stroke-dasharray="120,120" stroke-dashoffset="-0" x1="3231" y1="389" x2="3231" y2="4282"/>
+<line stroke="#808080" stroke-width="11" stroke-dasharray="120,120" stroke-dashoffset="-0" x1="3237" y1="389" x2="3237" y2="4282"/>
+<line stroke="#808080" stroke-width="11" stroke-dasharray="120,120" stroke-dashoffset="-0" x1="3295" y1="389" x2="3295" y2="4282"/>
+<line stroke="#808080" stroke-width="11" stroke-dasharray="120,120" stroke-dashoffset="-0" x1="3298" y1="389" x2="3298" y2="4282"/>
+<line stroke="#808080" stroke-width="11" stroke-dasharray="120,120" stroke-dashoffset="-0" x1="3240" y1="389" x2="3240" y2="4282"/>
+<line stroke="#808080" stroke-width="11" stroke-dasharray="120,120" stroke-dashoffset="-0" x1="3234" y1="389" x2="3234" y2="4282"/>
+</g>
+<clipPath id="CR74">
+<rect x="0" y="0" width="6804" height="4536"/>
+</clipPath>
+<g clip-path="url(#CR74)">
+</g>
+</g>
+</svg>
